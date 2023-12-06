@@ -152,12 +152,13 @@ const modificarAlumno = async(e) => {
             <Form.Control
               type="search"
               placeholder="Search"
+              id='search'
               className="me-2 ms-1"
               aria-label="Search"
               value={search}
               onChange={handleSearch}
             />
-            <Button variant="outline-success">Search</Button>
+            
           </Form>
           <Pagination size="lg" className=' mt-2 ms-2 d-flex flex-row' >
             {/* <Pagination.Item>{}</Pagination.Item>  
@@ -220,7 +221,8 @@ const modificarAlumno = async(e) => {
           <Form className='bg-light mx-2 p-2 border border-5 rounded-4'>
             <Form.Group className="mb-3" controlId="Name">
               <Form.Label>Nombre</Form.Label>
-              <Form.Control type="text" placeholder="Nombres" 
+              <Form.Control type="text" placeholder="Nombres"
+              autoComplete="Nombres" 
               onChange={(e)=>setFirst_name(e.target.value)}
               value={first_name}
               />
