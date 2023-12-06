@@ -18,7 +18,7 @@ function HeadApp() {
               height="10%"
               className="d-inline-block "
             />{' '}
-            Trabajo de FrontEnd con Node JS - React  y Bootstrap.
+            Frontend con Node JS - React  y Bootstrap para una backend en PHP-laravel.
           </Navbar.Brand>
         </Container>
       </Navbar>
