@@ -220,9 +220,8 @@ const modificarAlumno = async(e) => {
           <h3 className='text-center'>Formulario</h3>
           <Form className='bg-light mx-2 p-2 border border-5 rounded-4'>
             <Form.Group className="mb-3" controlId="Name">
-              <Form.Label>Nombre</Form.Label>
+              <Form.Label>Nombres</Form.Label>
               <Form.Control type="text" placeholder="Nombres"
-              autoComplete="Nombres" 
               onChange={(e)=>setFirst_name(e.target.value)}
               value={first_name}
               />
